@@ -1,4 +1,5 @@
 # UDS-projection
+## This project is coded in R.
 
 1) Lets compute the pairwise drug distance-- this paper provides a review of similarity measures https://iopscience.iop.org/article/10.1088/1742-6596/892/1/012015
 2) Next, we use this distance matrix and project them on a compact subset of R^1. you can use R package PACE and the relevant projection is known as Stringing http://anson.ucdavis.edu/~mueller/data/software.html
