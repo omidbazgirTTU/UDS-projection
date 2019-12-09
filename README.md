@@ -7,3 +7,8 @@
     Now you can plot the AUC (or IC50) of each drug on their respective locations. Therefore you will end up with a 1D function for each subject.
 4) Now for each subject perform an ACF plot. The horizontal axis of ACF plot is the lag in drug space and the vertical axis is the correlation of responses. If it is stationary, the correlation will decrease as lag increases. Our hunch is that, you will see non-monotonic relationship between lag and correlation.
 5) We can then perform a formal test of stationarity in R. See adf.test in package t series. If we fail to reject the null, we establish non-stationarity.
+
+## Augmented Dickey Fuller (ADF) test
+
+ADF tests whether a time series is stationary or not. If we fail to reject the null, we establish non-stationarity.
+\Delta
