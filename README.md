@@ -11,4 +11,4 @@
 ## Augmented Dickey Fuller (ADF) test
 
 ADF tests whether a time series is stationary or not. If we fail to reject the null, we establish non-stationarity.
-\Delta
+$\Delta_{y}$
