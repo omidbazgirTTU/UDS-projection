@@ -10,5 +10,6 @@
 
 ## Augmented Dickey Fuller (ADF) test
 
-ADF tests whether a time series is stationary or not. If we fail to reject the null, we establish non-stationarity.
+ADF tests whether a time series is stationary or not. If we fail to reject the null, we establish non-stationarity. In general, a p-value of less than 5% means you can reject the null hypothesis that there is a unit root. 
 
+The idea if Dickey Fuller test is we start of by an autoregressive model, where the null hypothesis for this test is that there is a unit root, meaning \rho = 1 or \delta = 0.
