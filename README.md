@@ -1,4 +1,5 @@
 # UDS-projection
+This project is designed to evaluate stationarity between drug descriptors and drug responses of the GDSC dataset.
 ## This project is coded in R.
 
 1) Lets compute the pairwise drug distance-- this paper provides a review of similarity measures https://iopscience.iop.org/article/10.1088/1742-6596/892/1/012015
@@ -14,3 +15,5 @@ ADF tests whether a time series is stationary or not. If we fail to reject the n
 
 The idea if Dickey Fuller test is we start of by an autoregressive model, where the null hypothesis for this test is that there is a unit root, meaning \rho = 1 or \delta = 0.
 https://stats.stackexchange.com/questions/142003/adf-test-results-confusion
+
+If the p-value is very small it means the data is very unlikely given the null hypothesis (of integrated 𝑦𝑡), so you would rather "believe in" the alternative hypothesis (stationary 𝑦𝑡).
